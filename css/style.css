@@ -1,0 +1,21 @@
+section.form_section {
+  background-color: #e1e1e1;
+}
+
+section.form_section .container {
+  min-height: 100vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.form_section .form_regist {
+  max-width: 550px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1.25rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(65, 11, 16, 0.15);
+}
