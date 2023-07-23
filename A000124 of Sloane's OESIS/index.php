@@ -51,7 +51,7 @@ if (isset($_POST["number"])) {
                     <input type="number" name="number" id="number" class="form-control" placeholder="number" value="<?= $number ?? "" ?>" required>
                     <label for="number">Number of Sequence</label>
                 </div>
-                <input type="submit" class="btn btn-primary">Submit</input>
+                <input type="submit" name="submit" class="btn btn-primary">
                 <?php if (isset($output)): ?>
                     <div class="mt-3">
                         <textarea class="form-control" disabled><?= $output ?></textarea>
